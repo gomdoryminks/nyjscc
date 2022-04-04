@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+/************************************************
+
+					setting
+
+*************************************************/
+
+/************************************************
+
+					evaluation_system
+
+*************************************************/
+.evaluation_system_area {
+    padding-bottom: 0;
+}
+.evaluation_system_area img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin: 0.625em 0 1em;
+}
+
+/************************************************
+
+					childcare
+
+*************************************************/
+.childcare_area {
+    padding-bottom: 0;
+}
+.childcare_area .content_table .tbody .th01 {
+    text-align: left;
+}
+.childcare_area .content_table .tbody .th01 .black {
+    margin-top: 1em;
+}
+.childcare_area .content_table .tbody .th01 .black:first-child {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .childcare_area .content_table col.th00 {
+        width: 22%;
+    }
+    .childcare_area .content_table col.th01 {
+        width: 53%;
+    }
+    .childcare_area .content_table col.th02 {
+        width: 25%;
+    }
+}
+
+/************************************************
+
+					operation_establishment
+
+*************************************************/
+.operation_establishment_area {
+    padding-bottom: 0;
+}
+.operation_establishment_area .content_table .tbody .th01,
+.operation_establishment_area .content_table .tbody .th02 {
+    text-align: left;
+}
+
+@media screen and (max-width: 1080px) {
+    .operation_establishment_area .content_table col.th01 {
+        width: 45%;
+    }
+    .operation_establishment_area .content_table col.th02 {
+        width: 35%;
+    }
+}
+
+/************************************************
+
+					financial_accounting
+
+*************************************************/
+.financial_accounting_area {
+    padding-bottom: 0;
+}
+.financial_accounting_area .content_table .tbody .th01 {
+    text-align: left;
+}
+.financial_accounting_area .content_table .tbody .th01 .black {
+    margin-top: 1em;
+}
+.financial_accounting_area .content_table .tbody .th01 .black:first-child {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .financial_accounting_area .content_table col.th00 {
+        width: 22%;
+    }
+    .financial_accounting_area .content_table col.th01 {
+        width: 53%;
+    }
+    .financial_accounting_area .content_table col.th02 {
+        width: 25%;
+    }
+}
+
+/************************************************
+
+					open_daycare_center
+
+*************************************************/
+.open_daycare_center_area {
+    padding-bottom: 0;
+}
+.open_daycare_center_area .odc_top_area {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.25em;
+}
+.open_daycare_center_area .odc_top_area .small {
+    float: left;
+    margin-bottom: 0;
+    line-height: 3.125em;
+}
+.open_daycare_center_area .odc_top_area .content_common_btn {
+    float: right;
+}
+.open_daycare_center_area .content_table .tbody .th01 {
+    text-align: left;
+}
+
+@media screen and (max-width: 1080px) {
+    .open_daycare_center_area .odc_top_area {
+        margin-bottom: -2.77%;
+    }
+    .open_daycare_center_area .odc_top_area .content_common_btn {
+        display: none;
+    }
+    .open_daycare_center_area .promotion_work_table col.th00 {
+        width: 22%;
+    }
+    .open_daycare_center_area .promotion_work_table col.th01 {
+        width: 78%;
+    }
+}
+
+/************************************************
+
+					play_instructor_program
+
+*************************************************/
+.play_instructor_program_area {
+    padding-bottom: 1.938em;
+}
+.play_instructor_program_area .play_instructor_program_section .small .orange {
+    font-weight: 600;
+}
+.play_instructor_program_area .play_instructor_program_section4 .small .orange,
+.play_instructor_program_area .play_instructor_program_section4 .small .green,
+.play_instructor_program_area .play_instructor_program_section4 .small .blue {
+    font-weight: 800;
+}
+.play_instructor_program_area .play_instructor_program_section4 .play_instructor_program_img {
+    margin-top: 3.75em;
+}
+.play_instructor_program_area .play_instructor_program_section4 .play_instructor_program_img img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+.play_instructor_program_area .play_instructor_program_section4 .play_instructor_program_img .play_instructor_program_left_img {
+    width: 47.45%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.play_instructor_program_area .play_instructor_program_section4 .play_instructor_program_img .play_instructor_program_right_img {
+    width: 47.45%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4.5%;
+}
+.play_instructor_program_area .play_instructor_program_section4 .play_instructor_program_img .play_instructor_program_right_img img {
+    margin-top: 9.43%;
+}
+.play_instructor_program_area .play_instructor_program_section4 .play_instructor_program_img .play_instructor_program_right_img img:first-child {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .play_instructor_program_area {
+        padding-bottom: 2.32%;
+    }
+    .play_instructor_program_area .play_instructor_program_section4 .play_instructor_program_img {
+        margin-top: 9.25%;
+    }
+    .play_instructor_program_area .play_instructor_program_section4 .play_instructor_program_img .play_instructor_program_left_img {
+        width: 100%;
+    }
+    .play_instructor_program_area .play_instructor_program_section4 .play_instructor_program_img .play_instructor_program_right_img {
+        width: 100%;
+        margin-left: 0;
+    }
+    .play_instructor_program_area .play_instructor_program_section4 .play_instructor_program_img .play_instructor_program_right_img img {
+        margin-top: 4.62%;
+    }
+    .play_instructor_program_area .play_instructor_program_section4 .play_instructor_program_img .play_instructor_program_right_img img:first-child {
+        margin-top: 4.62%;
+    }
+}
+
+/************************************************
+
+					play_docent_program
+
+*************************************************/
+.play_docent_program_area {
+    padding-bottom: 1.938em;
+}
+.play_docent_program_area .play_docent_program_list {
+    margin-top: 3.75em;
+}
+.play_docent_program_area .play_docent_program_list>li {
+    width: 100%;
+    height: auto;
+    margin-top: 1.875em;
+}
+.play_docent_program_area .play_docent_program_list>li .play_docent_program_img {
+    width: 48.35%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.play_docent_program_area .play_docent_program_list>li .play_docent_program_img img {
+    width: 100%;
+    height: auto;
+}
+.play_docent_program_area .play_docent_program_list>li .play_docent_program_txt {
+    width: 48.35%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.7%;
+}
+.play_docent_program_area .play_docent_program_list>li .play_docent_program_txt .small {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .play_docent_program_area {
+        padding-bottom: 2.32%;
+    }
+    .play_docent_program_area .play_docent_program_list {
+        margin-top: 9.25%;
+    }
+    .play_docent_program_area .play_docent_program_list>li {
+        margin-top: 5.55%;
+    }
+    .play_docent_program_area .play_docent_program_list>li .play_docent_program_img {
+        width: 100%;
+        margin-bottom: 2.77%;
+    }
+    .play_docent_program_area .play_docent_program_list>li .play_docent_program_txt {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/************************************************
+
+					play_consulting
+
+*************************************************/
+.play_consulting_area {
+    padding-bottom: 0;
+}
+.play_consulting_area .content_table .tbody .th01 {
+    text-align: left;
+}
+.play_consulting_area .content_table .tbody .th01 .black {
+    margin-top: 1em;
+}
+.play_consulting_area .content_table .tbody .th01 .black:first-child {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .play_consulting_area .content_table col.th00 {
+        width: 22%;
+    }
+    .play_consulting_area .content_table col.th01 {
+        width: 53%;
+    }
+    .play_consulting_area .content_table col.th02 {
+        width: 25%;
+    }
+}
+

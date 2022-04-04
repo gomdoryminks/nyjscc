@@ -1,0 +1,1212 @@
+@charset "utf-8";
+
+/************************************************
+
+					setting
+
+*************************************************/
+.content_main .support_guide_article {
+    margin-bottom: 6.25em;
+}
+.content_main .support_guide_article .support_guide_explain_txt {
+    margin-bottom: 3.75em;
+}
+.content_main .support_guide_article .support_guide_explain_txt .big {
+    line-height: 1.875em;
+}
+.content_main .support_guide_article .support_guide_explain_txt .small {
+    margin-bottom: 1.875em;
+}
+.content_main .support_guide_article .content_table tr .not_view {
+    display: none;
+}
+.content_fc .content_main .library_list_article .content_search_box .content_select {
+    width: 16.86%;
+}
+.content_fc .content_main .library_list_article .content_search_box .reset_btn {
+    background-color: #007efd;
+    margin-left: 0.625em;
+}
+.content_main .library_list_article .board_list>li {
+    width: 18.1%;
+    margin: 0 0 2.5em 2%;
+}
+.content_main .library_list_article .board_list>li:nth-child(4n + 1) {
+    margin-left: 2%;
+}
+.content_main .library_list_article .board_list>li:nth-child(5n + 1) {
+    margin-left: 0;
+}
+.content_main .library_list_article .board_list>li .board_list_txt {
+    margin-top: 0;
+    padding: 1.563em 0.313em;
+    border: 1px solid #e1e1e1;
+    border-top: none;
+}
+.content_main .library_list_article .board_list>li .board_list_txt .con {
+    margin-bottom: 1.25em;
+}
+.content_main .library_list_article .board_list>li .board_list_txt .library_list_txt_area>span {
+    font-size: 0.938em;
+    line-height: 2em;
+    letter-spacing: -0.04em;
+}
+.content_main .library_list_article .board_list>li .board_list_txt .library_list_txt_area>span:before {
+    content: '';
+    width: 1px;
+    height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #cccccc;
+    margin: 0 0.8em 0 0.667em;
+}
+.content_main .library_list_article .board_list>li .board_list_txt .library_list_txt_area>span:first-child:before {
+    width: 0;
+    height: 0;
+    display: none;
+    margin: 0;
+}
+.content_main .library_list_article .board_list>li .board_list_txt .library_list_btn_area>a {
+    font-size: 0.938em;
+    line-height: 2em;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+}
+.content_main .library_list_article .board_list>li .board_list_txt .library_list_btn_area>a:before {
+    content: '';
+    width: 1.333em;
+    height: 1.333em;
+    display: inline-block;
+    margin: -1px 0.267em 0 0;
+    background: url('../img/support/rental_icon.png') no-repeat center;
+    background-size: 100% auto;
+    vertical-align: middle;
+}
+.content_dc .content_main .library_list_article .board_list>li .board_list_txt .library_list_btn_area .library_list_all_btn {
+    color: #111111;
+    margin-right: 6%;
+}
+.content_dc .content_main .library_list_article .board_list>li .board_list_txt .library_list_btn_area .library_list_all_btn:before {
+    background: url('../img/support/rental_icon_dc.png') no-repeat center;
+    background-size: 100% auto;
+}
+.content_fc .content_main .library_list_article .board_list>li .board_list_txt .library_list_btn_area .library_list_all_btn {
+    color: #f7920e;
+    margin-right: 6%;
+}
+.content_fc .content_main .library_list_article .board_list>li .board_list_txt .library_list_btn_area .library_list_all_btn:before {
+    background: url('../img/support/rental_icon_fc.png') no-repeat center;
+    background-size: 100% auto;
+}
+.content_main .library_list_article .board_list>li .board_list_txt .library_list_btn_area .library_list_rental_btn {
+    color: #007efd;
+}
+.content_main .library_list_article .board_list>li .board_list_txt .library_list_btn_area .library_list_rental_btn:before {
+    background: url('../img/support/rental_icon2.png') no-repeat center;
+    background-size: 100% auto;
+}
+.content_dc .content_main .library_view_article {
+    margin-bottom: 6.25em;
+}
+.content_fc .content_main .library_view_article {
+    margin-bottom: 0;
+}
+.content_main .library_view_article .library_view_img {
+    width: 42.85%;
+    height: auto;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 2.85%;
+}
+.content_main .library_view_article .library_view_img>img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+.content_main .library_view_article .library_view_txt {
+    width: 53.9%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.content_fc .content_main .library_view_article .library_view_txt .content_table tr td .orange,
+.content_fc .content_main .library_view_article .library_view_txt .content_table tr td .blue {
+    font-weight: 800;
+}
+.content_fc .content_main .library_view_article .content_btn_area {
+    margin-top: 1.875em;
+}
+.content_fc .content_main .library_view_article .content_btn_area .content_common_btn {
+    height: 2.75em;
+    line-height: 2.75em;
+    background-color: #999999;
+    border: none;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 800;
+    margin: 0.625em;
+}
+.content_main .library_view_article .small {
+    margin-top: 2.5em;
+}
+
+@media screen and (max-width: 1080px) {
+    .content_main .support_guide_article {
+        margin-bottom: 12.03%;
+    }
+    .content_main .support_guide_article .support_guide_explain_txt {
+        margin-bottom: 9.25%;
+    }
+    .content_main .support_guide_article .support_guide_explain_txt .big {
+        margin-bottom: 2.77%;
+        font-size: 1.4em;
+        line-height: 1.19em;
+    }
+    .content_main .support_guide_article .support_guide_explain_txt .small {
+        margin-bottom: 5.55%;
+    }
+    .content_main .support_guide_article .support_guide_explain_txt .small .black {
+        font-size: 1.1em;
+        line-height: 1.515em;
+        font-weight: 800;
+    }
+    .content_main .support_guide_article .content_table tr th,
+    .content_main .support_guide_article .content_table tr td {
+        padding: 1.85%;
+    }
+    .content_fc .content_main .library_list_article .content_category>li {
+        font-size: 1em;
+        padding: 0;
+    }
+    .content_fc .content_main .library_list_article .content_search_box .content_select {
+        width: 31.5%;
+    }
+    .content_fc .content_main .library_list_article .content_search_box .content_btn {
+        width: 48.57%;
+    }
+    .content_fc .content_main .library_list_article .content_search_box .reset_btn {
+        margin-left: 1.85%;
+    }
+    .content_main .library_list_article .board_list>li {
+        width: 47.69%;
+        margin: 0 0 4.62% 3.72%;
+    }
+    .content_main .library_list_article .board_list>li:nth-child(4n + 1) {
+        margin-left: 3.72%;
+    }
+    .content_main .library_list_article .board_list>li:nth-child(5n + 1) {
+        margin-left: 3.72%;
+    }
+    .content_main .library_list_article .board_list>li:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+    .content_main .library_list_article .board_list>li .board_list_txt {
+        padding: 8.6% 4.62%;
+        border: 2px solid #e1e1e1;
+        border-top: none;
+    }
+    .content_main .library_list_article .board_list>li .board_list_txt .con {
+        margin-bottom: 2.77%;
+    }
+    .content_main .library_list_article .board_list>li .board_list_txt .library_list_txt_area>span {
+        font-size: 0.9em;
+    }
+    .content_main .library_list_article .board_list>li .board_list_txt .library_list_txt_area>span:before {
+        width: 2px;
+    }
+    .content_main .library_list_article .board_list>li .board_list_txt .library_list_btn_area>a {
+        font-size: 0.9em;
+        line-height: 1.111em;
+    }
+    .content_main .library_list_article .board_list>li .board_list_txt .library_list_btn_area>a:before {
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        margin: -1px 0.333em 0 0;
+    }
+    .content_main .library_list_article .board_list>li .board_list_txt .library_list_btn_area .library_list_all_btn {
+        margin-right: 3.7%;
+    }
+    .content_area .content_main .library_view_article {
+        margin-bottom: 9.25%;
+    }
+    .content_main .library_view_article .library_view_img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 5.55%;
+    }
+    .content_main .library_view_article .library_view_txt {
+        width: 100%;
+    }
+    .content_fc .content_main .library_view_article .content_btn_area {
+        margin-top: 0;
+    }
+    .content_fc .content_main .library_view_article .content_btn_area .content_common_btn {
+        width: 45.24%;
+        height: 2.5em;
+        line-height: 2.5em;
+        background-color: #bbbbbb;
+        font-size: 1.2em;
+        margin: 1.38%;
+        -webkit-border-radius: 1.25em;
+        -moz-border-radius: 1.25em;
+        -ms-border-radius: 1.25em;
+        border-radius: 1.25em;
+    }
+    .content_dc .content_main .library_view_article .small {
+        height: 15em;
+        padding: 4.62%;
+        vertical-align: top;
+        margin-top: 0;
+        border-bottom: 2px solid #e1e1e1;
+    }
+    .content_fc .content_main .library_view_article .small {
+        margin-top: 9.25%;
+    }
+    .content_main .playground_application_article #calendar_tab .calendar_table tr td .calendar_schedule .calendar_time_area {
+        display: inline-block;
+        margin: 0.5em 0.5em 0 0;
+    }
+    .content_main .playground_application_article #calendar_tab .calendar_table tr td .calendar_schedule .calendar_time_area .tit_item {
+        width: 24px;
+        height: 24px;
+        margin-right: 0;
+        display: inline-block;
+        vertical-align: top;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+    }
+    .content_main .playground_application_article #calendar_tab .calendar_table tr td .calendar_schedule .calendar_time_area .blue_item {
+        background-color: #007efd;
+    }
+    .content_main .playground_application_article #calendar_tab .calendar_table tr td .calendar_schedule .calendar_time_area .green_item {
+        background-color: #87c66a;
+    }
+    .content_main .playground_application_article #calendar_tab .calendar_table tr td .calendar_schedule .calendar_time_area .orange_item {
+        background-color: #f7920e;
+    }
+    .content_main .playground_application_article #calendar_tab .calendar_table tr td .calendar_schedule .calendar_time_area .purple_item {
+        background-color: #b480e5;
+    }
+    .content_main .playground_application_article #calendar_tab .calendar_table tr td .calendar_schedule .calendar_time_area .pink_item {
+        background-color: #fb76ae;
+    }
+    .content_main .playground_application_article #calendar_tab .calendar_table tr td .calendar_schedule .calendar_time_area .red_item {
+        background-color: #f03131;
+    }
+    .content_main .playground_application_article #calendar_tab .calendar_table tr td .calendar_schedule .calendar_time_area .gray_item {
+        background-color: #666666;
+    }
+    .content_main .playground_application_article #calendar_tab .calendar_table tr td .calendar_schedule .calendar_time_area .calendar_con_popup .con_popup_body {
+        padding: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .content_main .library_list_article .board_list>li {
+        margin: 0 0 4.62% 3.62%;
+    }
+    .content_main .library_list_article .board_list>li:nth-child(4n + 1) {
+        margin-left: 3.62%;
+    }
+    .content_main .library_list_article .board_list>li:nth-child(5n + 1) {
+        margin-left: 3.62%;
+    }
+    .content_main .library_list_article .board_list>li:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+    .content_main .library_list_article .board_list>li .board_list_txt .library_list_btn_area>a {
+        font-size: 0.8em;
+    }
+    .content_main .playground_application_article #calendar_tab .calendar_table tr td .calendar_schedule .calendar_time_area .tit_item {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .content_fc .content_main .library_list_article .content_search_box .content_select {
+        width: 31.4%;
+    }
+    .content_main .library_list_article .board_list>li .board_list_txt {
+        border: 1px solid #e1e1e1;
+        border-top: none;
+    }
+    .content_main .library_list_article .board_list>li .board_list_txt .library_list_txt_area>span:before {
+        width: 1px;
+    }
+    .content_dc .content_main .library_view_article .small {
+        border-bottom: 1px solid #e1e1e1;
+    }
+    .content_main .playground_application_article #calendar_tab .calendar_table tr td .calendar_schedule .calendar_time_area .tit_item {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .content_main .library_list_article .board_list>li {
+        margin: 0 0 4.62% 3.52%;
+    }
+    .content_main .library_list_article .board_list>li:nth-child(4n + 1) {
+        margin-left: 3.52%;
+    }
+    .content_main .library_list_article .board_list>li:nth-child(5n + 1) {
+        margin-left: 3.52%;
+    }
+    .content_main .library_list_article .board_list>li:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+    .content_main .library_list_article .board_list>li .board_list_txt .library_list_btn_area>a {
+        font-size: 0.9em;
+    }
+    .content_main .playground_application_article #calendar_tab .calendar_table tr td .calendar_schedule .calendar_time_area .tit_item {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .content_main .library_list_article .board_list>li .board_list_txt .library_list_btn_area>a {
+        display: block;
+        margin-top: 3.7%;
+    }
+    .content_main .library_list_article .board_list>li .board_list_txt .library_list_btn_area .library_list_all_btn {
+        margin-right: 0;
+    }
+    .content_main .playground_application_article #calendar_tab .calendar_table tr td .calendar_schedule .calendar_time_area .tit_item {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+/************************************************
+
+					teacher_education
+
+*************************************************/
+.teacher_education_area {
+    padding-bottom: 0;
+}
+.teacher_education_area .teacher_education_section3 .content_table tr td.th01 {
+    text-align: left;
+}
+.teacher_education_area .teacher_education_section3 .teacher_education_txt {
+    text-align: right;
+    margin-top: 1.25em;
+}
+
+@media screen and (max-width: 1080px) {
+    .teacher_education_area {
+        padding-bottom: 2.32%;
+    }
+    .teacher_education_area .teacher_education_section3 .content_table col.th02 {
+        width: 50%;
+    }
+    .teacher_education_area .teacher_education_section3 .content_table col.th03 {
+        width: 20%;
+    }
+    .teacher_education_area .teacher_education_section3 .teacher_education_txt {
+        margin-top: 3.7%;
+    }
+}
+
+/************************************************
+
+					library_branch
+
+*************************************************/
+.library_branch_area .content_explain_area {
+    margin-bottom: 5em;
+}
+.library_branch_area .library_branch_list {
+    text-align: center;
+}
+.library_branch_area .library_branch_list>li {
+    width: 17.29%;
+    height: auto;
+    margin: 0 0 1.875em 9.88%;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+}
+.library_branch_area .library_branch_list>li:first-child {
+    margin-left: 0;
+}
+.library_branch_area .library_branch_list>li>img {
+    width: auto;
+    height: auto;
+    max-width: 120px;
+}
+.library_branch_area .library_branch_list>li .big {
+    font-size: 1.375em;
+    line-height: 2.136em;
+}
+
+@media screen and (max-width: 1080px) {
+    .library_branch_area .content_explain_area {
+        margin-bottom: 9.25%;
+    }
+    .library_branch_area .library_branch_list>li {
+        width: 29.94%;
+        margin: 0 0 9.25% 4.19%;
+    }
+    .library_branch_area .library_branch_list>li>img {
+        max-width: 80%;
+    }
+    .library_branch_area .library_branch_list>li .big {
+        font-size: 1.2em;
+        line-height: 1.306em;
+        margin-top: 12.38%;
+    }
+    .library_branch_area .library_branch_list>li .content_common_btn {
+        font-size: 0.9em;
+        padding: 0 3.7%;
+        margin-top: 12.38%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .library_branch_area .library_branch_list>li {
+        margin: 0 0 9.25% 4.09%;
+    }
+}
+
+/************************************************
+
+					library_view
+
+*************************************************/
+@media screen and (max-width: 1080px) {
+    .library_view_area {
+        padding-bottom: 2.32%;
+    }
+    .library_view_area .content_calendar_area .content_calendar_top .calendar_top_btn_area {
+        display: block;
+    }
+    .library_view_area .library_view_article2 {
+        margin-bottom: 5.55%;
+    }
+    .library_view_area .rental_status_table tr td {
+        text-align: center;
+    }
+}
+
+/************************************************
+
+					library_rental_list
+
+*************************************************/
+.library_rental_list_area .con_mobile {
+    display: none;
+}
+.library_rental_list_area .library_rental_list_article .content_table tr td.link {
+    color: #111111;
+    background-color: #f2f8ff;
+}
+.library_rental_list_area .library_rental_list_article .content_table tr td.link>a {
+    color: #111111;
+}
+.library_rental_list_area .library_rental_list_article .content_table tr td.link>a:hover {
+    border-bottom: 1px solid #111111;
+}
+
+@media screen and (max-width: 1080px) {
+    .library_rental_list_area .con_mobile {
+        display: block;
+    }
+    .library_rental_list_area .content_table col.th00 {
+        width: 10%;
+    }
+    .library_rental_list_area .content_table col.th01,
+    .library_rental_list_area .content_table col.th03 {
+        width: 12%;
+    }
+    .library_rental_list_area .content_table col.th02 {
+        width: 16%;
+    }
+    .library_rental_list_area .content_table .th08,
+    .library_rental_list_area .content_table .th09 {
+        display: none;
+    }
+    .library_rental_list_area .content_table tr th,
+    .library_rental_list_area .content_table tr td {
+        padding: 1.85% 0.92%;
+    }
+}
+
+/************************************************
+
+					library_rental_satisfaction
+
+*************************************************/
+.library_rental_satisfaction_area .content_explain_area {
+    margin-bottom: 0;
+}
+.library_rental_satisfaction_area .big {
+    margin-top: 3.75em;
+    font-size: 1em;
+}
+.library_rental_satisfaction_area .big>span {
+    color: #666666;
+    font-weight: 400;
+}
+.library_rental_satisfaction_area .content_radio_area input[type="radio"] + label {
+    margin: 1.25em 3.75em 0 0;
+}
+.library_rental_satisfaction_area .content_chk_area input[type="checkbox"] + label {
+    margin: 1.25em 3.75em 0 0;
+}
+.library_rental_satisfaction_area .library_rental3_item .small {
+    width: 14.28%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1.25em;
+}
+.library_rental_satisfaction_area .library_rental3_item .library_rental3_radio_area {
+    width: 85.32%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.library_rental_satisfaction_area .content_text_limit {
+    margin-top: 1.25em;
+}
+
+@media screen and (max-width: 1080px) {
+    .library_rental_satisfaction_area .big {
+        margin-top: 9.25%;
+    }
+    .library_rental_satisfaction_area .content_radio_area {
+        display: block;
+    }
+    .library_rental_satisfaction_area .content_radio_area input[type="radio"] + label {
+        margin: 3.7% 0 0 0;
+    }
+    .library_rental_satisfaction_area .content_chk_area {
+        display: block;
+    }
+    .library_rental_satisfaction_area .content_chk_area input[type="checkbox"] + label {
+        margin: 3.7% 0 0 0;
+    }
+    .library_rental_satisfaction_area .library_rental3_item .small {
+        width: 100%;
+        margin-top: 3.7%;
+    }
+    .library_rental_satisfaction_area .library_rental3_item .library_rental3_radio_area {
+        width: 100%;
+    }
+    .library_rental_satisfaction_area .content_text_limit {
+        margin-top: 3.7%;
+    }
+}
+
+/************************************************
+
+					experience_program
+
+*************************************************/
+.experience_program_area .experience_program_img {
+    margin-top: 3.75em;
+}
+.experience_program_area .experience_program_img img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+.experience_program_area .experience_program_img .experience_program_left_img {
+    width: 47.45%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.experience_program_area .experience_program_img .experience_program_right_img {
+    width: 47.45%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4.5%;
+}
+.experience_program_area .experience_program_img .experience_program_right_img img {
+    margin-top: 9.43%;
+}
+.experience_program_area .experience_program_img .experience_program_right_img img:first-child {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1080px) {
+	.experience_program_area .content_category {
+		text-align: left;
+	}
+    .experience_program_area .experience_program_img {
+        margin-top: 9.25%;
+    }
+    .experience_program_area .experience_program_img .experience_program_left_img {
+        width: 100%;
+    }
+    .experience_program_area .experience_program_img .experience_program_right_img {
+        width: 100%;
+        margin-left: 0;
+    }
+    .experience_program_area .experience_program_img .experience_program_right_img img {
+        margin-top: 4.62%;
+    }
+    .experience_program_area .experience_program_img .experience_program_right_img img:first-child {
+        margin-top: 4.62%;
+    }
+}
+
+/************************************************
+
+					support_teacher
+
+*************************************************/
+.support_teacher_area .small .content_common_btn {
+    margin-top: 0.625em;
+}
+.support_teacher_area .content_table tr td {
+    text-align: center;
+}
+.support_teacher_area .content_btn_area {
+    padding-bottom: 1em;
+}
+
+@media screen and (max-width: 1080px) {
+    .support_teacher_area {
+        padding-bottom: 0;
+    }
+    .support_teacher_area .small .content_common_btn {
+        margin-top: 1.85%;
+    }
+    .support_teacher_area .small .content_table {
+        margin-bottom: 3.7%;
+    }
+}
+
+/************************************************
+
+					support_manpower
+
+*************************************************/
+.support_manpower_area {
+    padding-bottom: 0;
+}
+.support_manpower_area .content_table {
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1080px) {
+    .support_manpower_area .content_table {
+        margin-bottom: 3.7%;
+    }
+    .support_manpower_area .content_table tr td.th02 {
+        text-align: left;
+    }
+}
+
+/************************************************
+
+					library_guide
+
+*************************************************/
+.library_guide_area {
+    padding-bottom: 0;
+}
+.content_fc .library_guide_area .library_guide_section3 .explain_article .small .blue,
+.content_fc .library_guide_area .library_guide_section3 .explain_article .small .red {
+    font-weight: 400;
+}
+.content_fc .library_guide_area .library_guide_section3 .explain_article .small .content_table {
+    margin-bottom: 0.625em;
+}
+.content_fc .library_guide_area .library_guide_section5 .explain_article .small .textarea_indent {
+    margin-bottom: 0.625em;
+}
+.content_fc .library_guide_area .library_guide_section5 .explain_article .small .content_table {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .library_guide_area .content_table .tbody th {
+        background-color: #ffffff;
+    }
+    .content_fc .library_guide_area .library_guide_section3 .explain_article .small .content_table {
+        margin-bottom: 2.77%;
+    }
+    .content_fc .library_guide_area .library_guide_section5 .explain_article .small .textarea_indent {
+        margin-bottom: 2.77%;
+    }
+    .content_fc .library_guide_area .library_guide_section7 .content_common_btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/************************************************
+
+					library_rental
+
+*************************************************/
+.library_rental_area .content_table tr td .del_btn {
+    width: auto;
+    height: 1.688em;
+    line-height: 1.688em;
+    display: inline-block;
+    background-color: #f03131;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    text-align: center;
+    padding: 0 0.875em;
+    -webkit-border-radius: 0.875em;
+    -moz-border-radius: 0.875em;
+    -ms-border-radius: 0.875em;
+    border-radius: 0.875em;
+}
+
+@media screen and (max-width: 1080px) {
+    .content_fc .library_rental_area .content_category>li {
+        font-size: 1em;
+        padding: 0;
+    }
+    .library_rental_area .content_table tr th {
+        padding: 1.85%;
+    }
+    .content_fc .library_rental_area .content_table tr td {
+        padding: 1.85%;
+    }
+    .library_rental_area .content_table tr td .del_btn {
+        font-size: 0.9em;
+    }
+    .library_rental_area .library_rental_list>li {
+        margin-bottom: 7.4%;
+    }
+    .library_rental_area .library_rental_list>li .content_table {
+        margin-bottom: 1.85%;
+    }
+}
+
+/************************************************
+
+					childcare_guide
+
+*************************************************/
+.childcare_guide_area {
+    padding-bottom: 0;
+}
+.childcare_guide_area .childcare_guide_article .content_explain_area {
+    position: relative;
+}
+.childcare_guide_area .childcare_guide_article .content_explain_area .small {
+    width: calc(100% - 435px);
+}
+.childcare_guide_area .childcare_guide_article .content_explain_area .content_explain:before {
+    background: url('../img/support/childcare_guide_info_icon.png') no-repeat center;
+    background-size: 100% auto;
+}
+.childcare_guide_area .childcare_guide_article .content_explain_area .small .orange {
+    font-weight: 800;
+}
+.childcare_guide_area .childcare_guide_article .content_explain_area .content_common_btn {
+    position: absolute;
+    top: 50%;
+    right: 1.875em;
+    margin-top: -1.5625em;
+}
+.childcare_guide_area .childcare_guide_section2 .explain_article .small .content_table tr td.th01 {
+    text-align: left;
+}
+.childcare_guide_area .childcare_guide_section3 .explain_article .small .content_table {
+    margin-bottom: 0.625em;
+}
+.childcare_guide_area .childcare_guide_section4 img {
+    width: 100%;
+    height: auto;
+}
+.childcare_guide_area .childcare_guide_section5 .explain_article .small .content_table {
+    margin-top: 0;
+}
+.childcare_guide_area .childcare_guide_section5 .explain_article .small .content_table tr td.th00,
+.childcare_guide_area .childcare_guide_section5 .explain_article .small .content_table tr td.th01 {
+    text-align: left;
+}
+.childcare_guide_area .childcare_guide_section6 .explain_article .small .content_table {
+    margin-top: 0;
+}
+.childcare_guide_area .childcare_guide_section6 .explain_article .small .content_table tr td.th00,
+.childcare_guide_area .childcare_guide_section6 .explain_article .small .content_table tr td.th01 {
+    text-align: left;
+}
+.childcare_guide_area .childcare_guide_section6 .childcare_guide_call_area {
+    width: 100%;
+    height: auto;
+}
+.childcare_guide_area .childcare_guide_section6 .childcare_guide_call_area .black,
+.childcare_guide_area .childcare_guide_section6 .childcare_guide_call_area .orange {
+    font-weight: 800;
+}
+.childcare_guide_area .childcare_guide_section6 .childcare_guide_call_area .childcare_guide_call_left {
+    width: 54.05%;
+    height: 4.375em;
+    line-height: 4.375em;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+.childcare_guide_area .childcare_guide_section6 .childcare_guide_call_area .childcare_guide_call_left img {
+    width: 56.83%;
+    height: auto;
+    margin-right: 1.25em;
+}
+.childcare_guide_area .childcare_guide_section6 .childcare_guide_call_area .childcare_guide_call_right {
+    width: 43.24%;
+    height: 4.375em;
+    line-height: 4.375em;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.3%;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+.childcare_guide_area .childcare_guide_section6 .childcare_guide_call_area .childcare_guide_call_right img {
+    width: 50.83%;
+    height: auto;
+    margin-right: 1.25em;
+}
+
+@media screen and (max-width: 1800px) {
+    .childcare_guide_area .childcare_guide_article .content_explain_area .small {
+        width: calc(100% - 410px);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .childcare_guide_area .childcare_guide_article .content_explain_area .small {
+        width: calc(100% - 385px);
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .childcare_guide_area .childcare_guide_article .content_explain_area .small {
+        width: 100%;
+        line-height: 1.667em;
+        margin-bottom: 2.77%;
+    }
+    .childcare_guide_area .childcare_guide_article .content_explain_area .content_common_btn {
+        position: static;
+        margin-top: 0;
+        margin-left: 1.633em;
+    }
+    .childcare_guide_area .childcare_guide_section5 .explain_article .small .content_table tr td.th00,
+    .childcare_guide_area .childcare_guide_section6 .explain_article .small .content_table tr td.th00 {
+        text-align: center;
+    }
+    .childcare_guide_area .childcare_guide_section6 .childcare_guide_call_area .childcare_guide_call_left {
+        width: 100%;
+        height: 3.333em;
+        line-height: 3.333em;
+        border: 2px solid #e1e1e1;
+    }
+    .childcare_guide_area .childcare_guide_section6 .childcare_guide_call_area .childcare_guide_call_left img {
+        margin-right: 2.77%;
+    }
+    .childcare_guide_area .childcare_guide_section6 .childcare_guide_call_area .childcare_guide_call_right {
+        width: 100%;
+        height: 3.333em;
+        line-height: 3.333em;
+        border: 2px solid #e1e1e1;
+        margin-left: 0;
+        margin-top: 2.77%;
+    }
+    .childcare_guide_area .childcare_guide_section6 .childcare_guide_call_area .childcare_guide_call_right img {
+        margin-right: 2.77%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .childcare_guide_area .childcare_guide_article .content_explain_area .content_common_btn {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .childcare_guide_area .childcare_guide_section6 .childcare_guide_call_area .childcare_guide_call_left {
+        border: 1px solid #e1e1e1;
+    }
+    .childcare_guide_area .childcare_guide_section6 .childcare_guide_call_area .childcare_guide_call_right {
+        border: 1px solid #e1e1e1;
+    }
+}
+
+/************************************************
+
+					public_relations
+
+*************************************************/
+.public_relations_area {
+    padding-bottom: 0;
+}
+
+/************************************************
+
+					library_view2
+
+*************************************************/
+@media screen and (max-width: 1080px) {
+    .library_view2_area {
+        padding-bottom: 2.32%;
+    }
+}
+
+/************************************************
+
+					ha_playground_guide
+
+*************************************************/
+.ha_playground_guide_area {
+    padding-bottom: 0;
+}
+.ha_playground_guide_area .explain_article .small .content_table tr .blue_area {
+    background-color: #f7fbff;
+}
+.ha_playground_guide_area .explain_article .small .content_table tr .red_area {
+    background-color: #fef7f7;
+}
+
+@media screen and (max-width: 1080px) {
+    .ha_playground_guide_area .explain_article .small .content_table col.th00 {
+        width: 25%;
+    }
+    .ha_playground_guide_area .explain_article .small .content_table col.th01,
+    .ha_playground_guide_area .explain_article .small .content_table col.th02,
+    .ha_playground_guide_area .explain_article .small .content_table col.th03,
+    .ha_playground_guide_area .explain_article .small .content_table col.th04,
+    .ha_playground_guide_area .explain_article .small .content_table col.th05 {
+        width: 15%;
+    }
+    .ha_playground_guide_area .explain_article .small .content_table tr th {
+        padding: 1.85% 0.92%;
+    }
+    .ha_playground_guide_area .explain_article .small .content_table tr td {
+        padding: 1.85% 0.92%;
+    }
+    .ha_playground_guide_area .explain_article .small .content_table tr td .red {
+        color: #666666;
+        font-weight: 400;
+    }
+}
+
+/************************************************
+
+					kk_playground_guide
+
+*************************************************/
+.kk_playground_guide_area {
+    padding-bottom: 0;
+}
+.kk_playground_guide_area .kpg_img_area>img {
+    width: 48.21%;
+    height: auto;
+    margin-left: 3.17%;
+}
+.kk_playground_guide_area .kpg_img_area>img:nth-child(2n + 1) {
+    margin-left: 0;
+}
+.kk_playground_guide_area .explain_article .small .content_table {
+    margin: 0 auto 0.625em;
+}
+.kk_playground_guide_area .explain_article .small .content_table tr .red_area {
+    background-color: #fef7f7;
+}
+.kk_playground_guide_area .kk_playground_guide_section2 {
+    text-align: center;
+}
+.kk_playground_guide_area .kk_playground_guide_section2 .small {
+    margin-bottom: 1.875em;
+}
+
+@media screen and (max-width: 1080px) {
+    .kk_playground_guide_area {
+        padding-bottom: 9.25%;
+    }
+    .kk_playground_guide_area .kpg_img_area>img {
+        width: 47.69%;
+        margin-left: 3.72%;
+    }
+    .kk_playground_guide_area .content_left_tit {
+        font-size: 1em;
+        line-height: 1.667em;
+        margin: 0;
+    }
+    .kk_playground_guide_area .content_right_con {
+        margin-bottom: 0;
+    }
+    .kk_playground_guide_area .explain_article .small .content_table {
+        margin: 0 auto 2.77%;
+    }
+    .kk_playground_guide_area .explain_article .small .content_table tr th {
+        padding: 1.85% 0.92%;
+    }
+    .kk_playground_guide_area .explain_article .small .content_table tr td {
+        padding: 1.85% 0.92%;
+    }
+    .kk_playground_guide_area .explain_article .small .content_table tr td .red {
+        color: #666666;
+        font-weight: 400;
+    }
+    .kk_playground_guide_area .kk_playground_guide_section2 .small {
+        margin-bottom: 3.7%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .kk_playground_guide_area .kpg_img_area>img {
+        margin-left: 3.62%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .kk_playground_guide_area .kpg_img_area>img {
+        margin-left: 3.52%;
+    }
+}
+
+/************************************************
+
+					bn_playground_guide
+
+*************************************************/
+.bn_playground_guide_area {
+    padding-bottom: 0;
+}
+.bn_playground_guide_area .explain_article .small .content_table {
+    margin: 0.625em auto;
+}
+
+@media screen and (max-width: 1080px) {
+    .bn_playground_guide_area {
+        padding-bottom: 9.25%;
+    }
+    .bn_playground_guide_area .content_left_tit {
+        font-size: 1em;
+        line-height: 1.667em;
+        margin: 0;
+    }
+    .bn_playground_guide_area .content_right_con {
+        margin-bottom: 0;
+    }
+    .bn_playground_guide_area .explain_article .small .content_table {
+        margin: 2.77% auto;
+    }
+    .bn_playground_guide_area .bn_playground_guide_section2 .explain_article .small .content_table tr th {
+        padding: 1.85% 0.92%;
+    }
+    .bn_playground_guide_area .bn_playground_guide_section2 .explain_article .small .content_table tr td {
+        padding: 1.85% 0.92%;
+    }
+}
+
+/************************************************
+
+					library_member
+
+*************************************************/
+@media screen and (max-width: 1080px) {
+    .library_member_area .content_table tr th {
+        padding: 1.85%;
+    }
+}
+
+/************************************************
+
+					employment_teacher
+
+*************************************************/
+.employment_teacher_area {
+	padding-bottom: 0;
+}
+.employment_teacher_area img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	margin: 0.625em 0 1em;
+}
+
+@media screen and (max-width: 1080px) {
+	.employment_teacher_area .content_table col.th01,
+	.employment_teacher_area .content_table col.th03 {
+		width: 20%;
+	}
+	.employment_teacher_area .content_table col.th02 {
+		width: 50%;
+	}
+}
+
+/************************************************
+
+					wb_playground_guide
+
+*************************************************/
+.wb_playground_guide_area {
+    padding-bottom: 0;
+}
+.wb_playground_guide_area .wpg_img_area>img {
+    width: 30.91%;
+    height: auto;
+    margin-left: 3.17%;
+}
+.wb_playground_guide_area .wpg_img_area>img:first-child {
+	margin-left: 0;
+}
+.wb_playground_guide_area .explain_article .small .content_table {
+    margin: 0.625em auto;
+}
+
+@media screen and (max-width: 1080px) {
+    .wb_playground_guide_area {
+        padding-bottom: 9.25%;
+    }
+	.wb_playground_guide_area .wpg_img_area>img {
+		margin-left: 2.67%;
+	}
+    .wb_playground_guide_area .content_left_tit {
+        font-size: 1em;
+        line-height: 1.667em;
+        margin: 0;
+    }
+    .wb_playground_guide_area .content_right_con {
+        margin-bottom: 0;
+    }
+    .wb_playground_guide_area .explain_article .small .content_table {
+        margin: 2.77% auto;
+    }
+    .wb_playground_guide_area .wb_playground_guide_section5 .explain_article .small .content_table tr th {
+        padding: 1.85% 0.92%;
+    }
+    .wb_playground_guide_area .wb_playground_guide_section5 .explain_article .small .content_table tr td {
+        padding: 1.85% 0.92%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+	.wb_playground_guide_area .wpg_img_area>img {
+		margin-left: 2.57%;
+	}
+}
+

@@ -1,0 +1,426 @@
+@charset "utf-8";
+
+/************************************************
+
+					setting
+
+*************************************************/
+.content_main .interview_article .interview_explain_area {
+    margin-bottom: 3.75em;
+}
+.content_main .interview_article .interview_explain_area .interview_explain {
+    color: #666666;
+    font-size: 1em;
+    line-height: 2.063em;
+    letter-spacing: -0.04em;
+}
+.content_main .interview_article .interview_explain_area .interview_explain>span {
+    width: 1.533em;
+    height: 1.533em;
+    display: inline-block;
+    margin-right: 0.8em;
+    color: #ffffff;
+    font-size: 0.938em;
+    line-height: 1.533em;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+.content_dc .interview_article .interview_explain_area .interview_explain>span {
+    background-color: #007efd;
+}
+.content_fc .interview_article .interview_explain_area .interview_explain>span {
+    background-color: #f7920e;
+}
+.content_main .interview_article .content_calendar_area {
+    margin-bottom: 5.625em;
+}
+.content_main .interview2_article .small {
+    margin-top: 1.875em;
+}
+.content_main .interview2_article .interview2_txt {
+    margin-bottom: 2.5em;
+}
+.content_main .interview2_article .interview2_txt .big {
+    font-size: 1em;
+    line-height: 1.875em;
+}
+.content_main .interview2_article .content_table_top .content_table_tit {
+    font-size: 1em;
+    line-height: 1.875em;
+}
+.content_main .interview2_article .interview2_agree .content_chk_area {
+    display: block;
+    margin-top: 0.875em;
+}
+.content_main .interview2_article .interview2_agree .textarea_indent {
+    margin-left: 2em;
+}
+.content_main .interview2_article .interview2_sign {
+    margin-top: 3.75em;
+    text-align: center;
+}
+.content_main .interview2_article .interview2_sign .content_text {
+    margin-left: 1.875em;
+}
+.content_main .interview2_article .interview2_sign .content_text:first-child {
+    margin-left: 0;
+}
+.content_main .interview2_article .interview2_sign .w100 {
+    text-align: center;
+}
+
+@media screen and (max-width: 1080px) {
+    .content_main .interview_article .interview_explain_area {
+        margin-bottom: 9.25%;
+    }
+    .content_main .interview_article .interview_explain_area .interview_explain {
+        font-size: 0.9em;
+        line-height: 2.037em;
+    }
+    .content_main .interview_article .interview_explain_area .interview_explain>span {
+        width: 1.481em;
+        height: 1.481em;
+        margin-right: 1.29%;
+        font-size: 0.9em;
+        line-height: 1.481em;
+        font-weight: 600;
+    }
+    .content_main .interview_article .content_calendar_area {
+        margin-bottom: 11.57%;
+    }
+    .content_main .interview2_article .small {
+        margin-top: 5.55%;
+    }
+    .content_main .interview2_article .interview2_txt {
+        margin-bottom: 9.25%;
+    }
+    .interview2_area .interview2_txt .big {
+        line-height: 1.667em;
+    }
+    .content_main .interview2_article .content_table_top .content_table_tit {
+        line-height: 1.2em;
+    }
+    .content_main .interview2_article .interview2_agree .content_chk_area {
+        margin-top: 2.77%;
+    }
+    .content_main .interview2_article .applicant_table th.th_textarea {
+        padding-top: 3.333em;
+    }
+    .content_main .interview2_article .applicant_table th .br_view {
+        display: block;
+    }
+    .content_main .interview2_article .interview2_sign {
+        margin-top: 9.25%;
+    }
+    .content_main .interview2_article .interview2_sign .content_text {
+        margin-left: 3.7%;
+    }
+    .content_main .interview2_article .interview2_sign .w100 {
+        width: calc(19.23% - 40px);
+    }
+    .content_main .interview2_article .interview2_sign .w200 {
+        width: 25.83%;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .content_main .interview2_article .interview2_sign .w100 {
+        width: calc(19.43% - 35px);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .content_main .interview2_article .interview2_sign .w100 {
+        width: calc(19.83% - 30px);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .content_main .interview2_article .interview2_sign .w100 {
+        width: calc(19.23% - 20px);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .content_main .interview2_article .interview2_sign .w100 {
+        width: calc(20.23% - 20px);
+    }
+}
+
+/************************************************
+
+					advice_guide
+
+*************************************************/
+.advice_guide_area {
+    padding-bottom: 0;
+}
+.advice_guide_area .explain_article .content_table tr td.th03 {
+    text-align: left;
+}
+.advice_guide_area .explain_article .offline_advice_guide_img {
+    margin-top: 0.625em;
+}
+.advice_guide_area .explain_article .offline_advice_guide_img img {
+    width: 100%;
+    height: auto;
+}
+/*.advice_guide_area .explain_article .offline_advice_guide_step {
+    margin-top: 0.625em;
+}
+.advice_guide_area .explain_article .offline_advice_guide_step>li {
+    width: 16.66%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+.advice_guide_area .explain_article .offline_advice_guide_step>li:first-child {
+    width: 31.82%;
+}
+.advice_guide_area .explain_article .offline_advice_guide_step>li:first-child + li + li {
+    margin-right: 2.1%;
+}
+.advice_guide_area .explain_article .offline_advice_guide_step>li:last-child {
+    width: 14.56%;
+}
+.advice_guide_area .explain_article .offline_advice_guide_step>li .step_tit {
+    width: 46.31%;
+    height: 4.5em;
+    line-height: 4.5em;
+    float: left;
+    background-color: #f7920e;
+    color: #ffffff;
+    font-size: 1.25em;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+}
+.advice_guide_area .explain_article .offline_advice_guide_step>li .step_txt {
+    width: 70.5%;
+    height: 5.625em;
+    background-color: #ffffff;
+    border: 1px solid #f7920e;
+    margin: 0 14.75%;
+    padding: 1.25em 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+.advice_guide_area .explain_article .offline_advice_guide_step>li:first-child .step_txt {
+    width: 46.31%;
+    margin: 0 7.38% 0 0;
+    float: left;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+}
+.advice_guide_area .explain_article .offline_advice_guide_step>li:first-child + li + li .step_txt,
+.advice_guide_area .explain_article .offline_advice_guide_step>li:last-child .step_txt {
+    width: 85.25%;
+    margin: 0 0 0 14.75%;
+}
+.advice_guide_area .explain_article .offline_advice_guide_step>li .step_txt:before {
+    content: '';
+    width: 14px;
+    height: 23px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url('../img/advice/guide_arrow.png') no-repeat center;
+    background-size: 100% auto;
+    position: absolute;
+    top: calc(50% - 12px);
+    left: -7px;
+}
+.advice_guide_area .explain_article .offline_advice_guide_step>li:first-child .step_txt:before {
+    content: '';
+    width: 0;
+    height: 0;
+    display: none;
+}
+.advice_guide_area .explain_article .offline_advice_guide_step>li .step_txt .num {
+    color: #666666;
+    font-size: 0.938em;
+    line-height: 1.667em;
+    letter-spacing: -0.04em;
+}
+.advice_guide_area .explain_article .offline_advice_guide_step>li .step_txt .con {
+    color: #111111;
+    font-size: 1em;
+    line-height: 1.563em;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+}*/
+
+@media screen and (max-width: 1080px) {
+    .advice_guide_area .explain_article .small .br_view {
+        display: block;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_img {
+        margin-top: 2.77%;
+    }
+    /*.advice_guide_area .explain_article .offline_advice_guide_step {
+        margin: 2.77% 0 0 11px;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li {
+        width: auto;
+        padding: 0 0.5em;
+        margin-bottom: 3.7%;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li:first-child {
+        width: auto;
+        padding: 0 0.5em 0 0;
+        margin-left: -11px;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li:first-child + li + li {
+        margin-right: 0;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li:last-child {
+        width: auto;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li .step_tit {
+        width: auto;
+        height: 4em;
+        line-height: 4em;
+        font-size: 1em;
+        padding: 0 1.5em;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li .step_txt {
+        width: auto;
+        height: 4em;
+        border: 2px solid #f7920e;
+        margin: 0 0.5em;
+        padding: 1em 1.5em;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li:first-child .step_txt {
+        width: auto;
+        margin: 0 0.5em 0 0;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li:first-child + li + li .step_txt,
+    .advice_guide_area .explain_article .offline_advice_guide_step>li:last-child .step_txt {
+        width: auto;
+        margin: 0 0.5em;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li .step_txt:before {
+        width: 21px;
+        height: 35px;
+        top: calc(50% - 18px);
+        left: -11px;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li .step_txt .num {
+        font-size: 0.8em;
+        line-height: 1.25em;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li .step_txt .con {
+        line-height: 1em;
+    }*/
+}
+
+@media screen and (max-width: 900px) {
+    /*.advice_guide_area .explain_article .offline_advice_guide_step {
+        margin: 2.77% 0 0 10px;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li:first-child {
+        margin-left: -10px;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li .step_txt:before {
+        width: 19px;
+        height: 31px;
+        top: calc(50% - 16px);
+        left: -10px;
+    }*/
+}
+
+@media screen and (max-width: 700px) {
+    /*.advice_guide_area .explain_article .offline_advice_guide_step {
+        margin: 2.77% 0 0 9px;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li:first-child {
+        margin-left: -9px;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li .step_txt {
+        border: 1px solid #f7920e;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li .step_txt:before {
+        width: 17px;
+        height: 27px;
+        top: calc(50% - 14px);
+        left: -9px;
+    }*/
+}
+
+@media screen and (max-width: 550px) {
+    /*.advice_guide_area .explain_article .offline_advice_guide_step {
+        margin: 2.77% 0 0 8px;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li:first-child {
+        margin-left: -8px;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li .step_txt:before {
+        width: 15px;
+        height: 23px;
+        top: calc(50% - 12px);
+        left: -8px;
+    }*/
+}
+
+@media screen and (max-width: 450px) {
+    /*.advice_guide_area .explain_article .offline_advice_guide_step {
+        margin: 2.77% 0 0 7px;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li:first-child {
+        margin-left: -7px;
+    }
+    .advice_guide_area .explain_article .offline_advice_guide_step>li .step_txt:before {
+        width: 13px;
+        height: 19px;
+        top: calc(50% - 10px);
+        left: -7px;
+    }*/
+}
+
+/************************************************
+
+					online_list
+
+*************************************************/
+@media screen and (max-width: 1080px) {
+    .content_fc .online_list_area .board_article .board_table_list .th04 {
+        display: none;
+    }
+    .content_fc .online_list_area .board_article .board_table_list col.th01 {
+        width: 40% !important;
+    }
+    .content_fc .online_list_area .board_article .board_table_list col.th02 {
+        width: 20% !important;
+    }
+    .content_fc .online_list_area .board_article .board_table_list col.th03 {
+        width: 20%;
+        display: table-column;
+    }
+    .content_fc .online_list_area .board_article .board_table_list col.th05 {
+        width: 20%;
+    }
+    .content_fc .online_list_area .board_article .board_table_list th,
+    .content_fc .online_list_area .board_article .board_table_list td {
+        padding: 1.85%;
+    }
+    .content_fc .online_list_area .board_article .board_table_list th.th03,
+    .content_fc .online_list_area .board_article .board_table_list td.th03 {
+        display: table-cell;
+    }
+}
+

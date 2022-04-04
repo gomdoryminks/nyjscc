@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/************************************************
+
+					setting
+
+*************************************************/
+
+/************************************************
+
+				    document_data_list
+
+*************************************************/
+.document_data_list_area .board_article .board_table_list tr td.link img {
+    width: 1.25em;
+    height: auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1080px) {
+    .document_data_list_area .board_article .board_table_list .th04 {
+        display: none;
+    }
+    .document_data_list_area .board_article .board_table_list col.th03 {
+        display: table-column;
+    }
+    .document_data_list_area .board_article .board_table_list th.th03,
+    .document_data_list_area .board_article .board_table_list td.th03 {
+        display: table-cell;
+    }
+    .document_data_list_area .board_article .board_table_list col.th01 {
+        width: 55%;
+    }
+    .document_data_list_area .board_article .board_table_list col.th02 {
+        width: 15%;
+    }
+    .document_data_list_area .board_article .board_table_list col.th03 {
+        width: 30%;
+    }
+    .document_data_list_area .board_article .board_table_list tr td.link img {
+        width: 1.333em;;
+    }
+}
+
+/************************************************
+
+				    recruit_notice_list
+
+*************************************************/
+.recruit_notice_list_area .board_article .board_table_list .tbody td.th01 {
+    text-align: center;
+}
+.recruit_notice_list_area .board_article .board_table_list .tbody td.th02 {
+    text-align: left;
+}
+
+@media screen and (max-width: 1080px) {
+    .recruit_notice_list_area .board_article .board_table_list .th04 {
+        display: none;
+    }
+    .recruit_notice_list_area .board_article .board_table_list col.th03 {
+        display: table-column;
+    }
+    .recruit_notice_list_area .board_article .board_table_list th.th03,
+    .recruit_notice_list_area .board_article .board_table_list td.th03 {
+        display: table-cell;
+    }
+    .recruit_notice_list_area .board_article .board_table_list col.th01 {
+        width: 15%;
+    }
+    .recruit_notice_list_area .board_article .board_table_list col.th02 {
+        width: 55%;
+    }
+    .recruit_notice_list_area .board_article .board_table_list col.th03 {
+        width: 30%;
+    }
+}
+
+/************************************************
+
+				    map
+
+*************************************************/
+.map_area .content_search_box .content_select.con_pc {
+    display: inline-block;
+}
+.map_area .content_search_box .content_select.con_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1080px) {
+    .map_area .content_search_box .content_select {
+        width: 31.5%;
+    }
+    .map_area .content_search_box .content_select.con_pc {
+        display: none;
+    }
+    .map_area .content_search_box .content_select.con_mobile {
+        display: inline-block;
+    }
+    .map_area .content_table tr th,
+    .map_area .content_table tr td {
+        padding: 1.85%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .map_area .content_search_box .content_select {
+        width: 31.4%;
+    }
+}
+

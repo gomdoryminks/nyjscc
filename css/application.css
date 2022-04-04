@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+/************************************************
+
+					setting
+
+*************************************************/
+
+/************************************************
+
+					event_application_guide
+
+*************************************************/
+.event_application_guide_area {
+    padding-bottom: 0;
+}
+.event_application_guide_area .eag_method {
+    margin: 1.25em 0 0 -1.875em;
+}
+.event_application_guide_area .eag_method>li {
+    width: 11.875em;
+    height: auto;
+    max-width: 24.6%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.event_application_guide_area .eag_method>li .eag_method_img {
+    position: relative;
+}
+.event_application_guide_area .eag_method>li .eag_method_img:before {
+    content: '';
+    width: 7px;
+    height: 14px;
+    display: inline-block;
+    background: url('../img/application/guide_arrow.png') no-repeat center;
+    background-size: 100% auto;
+    position: absolute;
+    top: calc(50% - 7px);
+    left: -3.5px;
+}
+.event_application_guide_area .eag_method>li:first-child .eag_method_img:before {
+    content: '';
+    width: 0;
+    height: 0;
+    display: none;
+}
+.event_application_guide_area .eag_method>li .eag_method_img>img {
+    width: auto;
+    height: auto;
+    max-width: 90px;
+}
+.event_application_guide_area .eag_method>li>p {
+    font-size: 0.938em;
+    line-height: 1.467em;
+    margin: 1em 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .event_application_guide_area .eag_method {
+        margin: 3.7% 0 0;
+    }
+    .event_application_guide_area .eag_method>li {
+        width: 24.4%;
+        max-width: none;
+    }
+    .event_application_guide_area .eag_method>li .eag_method_img:before {
+        width: 14px;
+        height: 30px;
+        top: calc(50% - 15px);
+        left: -7px;
+    }
+    .event_application_guide_area .eag_method>li .eag_method_img>img {
+        max-width: 65%;
+    }
+    .event_application_guide_area .eag_method>li>p {
+        font-size: 0.9em;
+        line-height: 1.2em;
+        margin: 7.6% 0 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .event_application_guide_area .eag_method>li {
+        width: 24.3%;
+    }
+    .event_application_guide_area .eag_method>li .eag_method_img:before {
+        width: 12px;
+        height: 26px;
+        top: calc(50% - 13px);
+        left: -6px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .event_application_guide_area .eag_method>li .eag_method_img:before {
+        width: 10px;
+        height: 22px;
+        top: calc(50% - 11px);
+        left: -5px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .event_application_guide_area .eag_method>li .eag_method_img:before {
+        width: 8px;
+        height: 18px;
+        top: calc(50% - 9px);
+        left: -5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .event_application_guide_area .eag_method>li .eag_method_img:before {
+        width: 6px;
+        height: 14px;
+        top: calc(50% - 7px);
+        left: -4px;
+    }
+}
+
+/************************************************
+
+					event_application
+
+*************************************************/
+.event_application_area .content_calendar_area {
+    margin-bottom: 3.75em;
+}
+.event_application_area .content_calendar_area #calendar_tab .calendar_table tr td .calendar_schedule .calendar_tit_list>li .tit_item {
+	color: #111111;
+}
+.event_application_area .content_calendar_area #calendar_tab .calendar_table tr td .calendar_schedule .calendar_tit_list>li .tit_item .cnt {
+	color: #666666;
+	font-size: 0.938em;
+	font-weight: 300;
+}
+.event_application_area .content_table .tbody .th01 {
+    text-align: left;
+}
+
+@media screen and (max-width: 1080px) {
+    .event_application_area {
+        padding-bottom: 2.32%;
+    }
+    .event_application_area .content_calendar_area {
+        margin-bottom: 5.55%;
+    }
+    .event_application_area .content_table .thead th,
+    .event_application_area .content_table .tbody td {
+        padding: 1.85% 0.92%;
+        font-size: 0.8em;
+    }
+}
+
+/************************************************
+
+					support_application
+
+*************************************************/
+.support_application_area .content_calendar_area {
+    margin-bottom: 3.75em;
+}
+.support_application_area .content_calendar_area #calendar_tab .calendar_table tr td .calendar_schedule .calendar_tit_list>li .tit_item {
+	color: #111111;
+}
+.support_application_area .content_calendar_area #calendar_tab .calendar_table tr td .calendar_schedule .calendar_tit_list>li .tit_item .cnt {
+	color: #666666;
+	font-size: 0.938em;
+	font-weight: 300;
+}
+.support_application_area .content_table .tbody .th01 {
+    text-align: left;
+}
+
+@media screen and (max-width: 1080px) {
+    .support_application_area {
+        padding-bottom: 2.32%;
+    }
+    .support_application_area .content_calendar_area {
+        margin-bottom: 5.55%;
+    }
+    .support_application_area .content_table .thead th,
+    .support_application_area .content_table .tbody td {
+        padding: 1.85% 0.92%;
+        font-size: 0.8em;
+    }
+    .support_application_layer .content_table col.th00 {
+        width: 30%;
+    }
+    .support_application_layer .content_table col.th01 {
+        width: 70%;
+    }
+}
+
+/************************************************
+
+					event_application2
+
+*************************************************/
+.event_application2_area .participant_table tr .content_chk_area input[type="checkbox"] + label {
+    padding-left: 1.5em;
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .event_application2_area .participant_table col.th00 {
+        width: 10% !important;
+    }
+    .event_application2_area .participant_table col.th01 {
+        width: 15% !important;
+    }
+    .event_application2_area .participant_table col.th02 {
+        width: 25%;
+    }
+    .event_application2_area .participant_table col.th03 {
+        width: 28%;
+    }
+    .event_application2_area .participant_table col.th04 {
+        width: 22%;
+    }
+    .event_application2_area .participant_table tr th,
+    .event_application2_area .participant_table tr td {
+        padding: 1.85%;
+    }
+    .event_application2_area .participant_table tr .content_chk_area input[type="checkbox"] + label {
+        padding-left: 1.4em;
+    }
+}
+
+/************************************************
+
+					parent_event_application
+
+*************************************************/
+.parent_event_application_area .content_calendar_area {
+    margin-bottom: 3.75em;
+}
+.parent_event_application_area .content_calendar_area #calendar_tab .calendar_table tr td .calendar_schedule .calendar_tit_list>li .tit_item {
+	color: #111111;
+}
+.parent_event_application_area .content_calendar_area #calendar_tab .calendar_table tr td .calendar_schedule .calendar_tit_list>li .tit_item .cnt {
+	color: #666666;
+	font-size: 0.938em;
+	font-weight: 300;
+}
+.parent_event_application_area .content_table .tbody .th02 {
+    text-align: left;
+}
+
+@media screen and (max-width: 1080px) {
+    .parent_event_application_area {
+        padding-bottom: 2.32%;
+    }
+    .parent_event_application_area .content_calendar_area {
+        margin-bottom: 5.55%;
+    }
+    .parent_event_application_area .content_table col.th00 {
+		width: 10% !important;
+	}
+	.parent_event_application_area .content_table col.th01 {
+		width: 15% !important;
+	}
+	.parent_event_application_area .content_table col.th02 {
+		width: 30%;
+	}
+	.parent_event_application_area .content_table col.th03 {
+		width: 15%;
+	}
+    .parent_event_application_area .content_table .thead th,
+    .parent_event_application_area .content_table .tbody td {
+        padding: 1.85% 0.92%;
+        font-size: 0.8em;
+    }
+}
+
+/************************************************
+
+					playscheme_application
+
+*************************************************/
+.playscheme_application_area .participant_table tr .content_chk_area input[type="checkbox"] + label {
+    padding-left: 1.5em;
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .playscheme_application_area .participant_table col.th00 {
+        width: 22% !important;
+    }
+    .playscheme_application_area .participant_table col.th01 {
+        width: 25% !important;
+    }
+    .playscheme_application_area .participant_table col.th02 {
+        width: 28%;
+    }
+    .playscheme_application_area .participant_table col.th03 {
+        width: 25%;
+    }
+    .playscheme_application_area .participant_table tr th,
+    .playscheme_application_area .participant_table tr td {
+        padding: 1.85%;
+    }
+    .playscheme_application_area .participant_table tr .content_chk_area input[type="checkbox"] + label {
+        padding-left: 1.4em;
+    }
+}
+
