@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>남양주시육아종합지원센터</title>
+		<meta name="description" content="남양주시육아종합지원센터">
+		<meta name="author" content="minks">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+		<link rel="shortcut icon" href="../img/logo_favicon.ico">
+		<link rel="apple-touch-icon" href="../img/logo_favicon.ico">
+		
+		<link href="../css/reset.css" type="text/css" rel="stylesheet">
+		<link href="../css/font.css" type="text/css" rel="stylesheet">
+		<link href="../css/common.css" type="text/css" rel="stylesheet">
+		<link href="../css/main.css" type="text/css" rel="stylesheet">
+		<link href="../css/support.css" type="text/css" rel="stylesheet">
+		<link href="../css/jquery.bxslider.css" type="text/css" rel="stylesheet">
+		<link href="../css/jquery-ui.min.css" type="text/css" rel="stylesheet">
+		
+		<!--[if lt IE 9]>
+		<script src="../js/jquery-1.11.1.min.js"></script>
+		<script src="../js/html5shiv.js"></script>
+		<![endif]-->
+		
+		<!--[if gte IE 9]>
+		<script src="../js/jquery-3.4.1.min.js"></script>
+		<![endif]-->
+		
+		<!--[if !IE]>--> 
+		<script src="../js/jquery-3.4.1.min.js"></script>
+		<!--<![endif]-->
+		
+		<script src="../js/jquery-migrate-1.4.1.min.js"></script>
+		<script src="../js/jquery.bxslider.min.js"></script>
+		<script src="../js/placeholders.min.js"></script>
+		<script src="../js/jquery-ui.min.js"></script>
+		<script src="../js/datepicker-ko.js"></script>
+		<script src="../js/function.js"></script>
+		<script src="../js/calendar.js"></script>
+	</head>
+
+	<body>
+		<div id="wrap">
+            <!-- header -->
+            <!-- header_dc : 어린이집 / header_fc : 가정양육 -->
+		    <header class="header header_fc">
+                <h1 class="not_view">header</h1>
+                
+                <div class="header_top">
+                    <div class="center_ct cf">
+                        <a href="../index_dc.html" class="header_top_short_cut">
+                            <p>어린이집 지원 바로가기</p>
+                            <span><img src="../img/move_icon.png" alt="move_icon"></span>
+                        </a>
+                        
+                        <ul class="header_top_menu cf">
+                            <li>
+                                <a href="#">
+                                    <span><img src="../img/logout_icon2.png" alt="logout_icon"></span>
+                                    <p>로그아웃</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span><img src="../img/mypage_icon2.png" alt="mypage_icon"></span>
+                                    <p>마이페이지</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../member/login_fc.html">
+                                    <span><img src="../img/login_icon2.png" alt="login_icon"></span>
+                                    <p>로그인</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../member/register_agreement_fc.html">
+                                    <span><img src="../img/register_icon2.png" alt="register_icon"></span>
+                                    <p>회원가입</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="header_main">
+                    <div class="center_ct cf">
+                        <div class="header_main_logo">
+                            <a href="../index_fc.html"><img src="../img/logo_fc.png" alt="logo_fc"></a>
+                        </div>
+
+                        <!-- nav -->
+                        <nav class="nav">
+                            <h1 class="not_view">nav</h1>
+
+                            <ul class="nav_menu cf">
+                                <li>
+                                    <p class="nav_menu_tit">센터 소개</p>
+                                    
+                                    <ul class="nav_sub_menu cf">
+                                        <li>
+                                            <a href="../introduction/introduction_fc.html">위탁법인 소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="../introduction/greeting_fc.html">인사말</a>
+                                        </li>
+                                        <li>
+                                            <a href="../introduction/vision_fc.html">비전</a>
+                                        </li>
+                                        <li>
+                                            <a href="../introduction/history_fc.html">연혁</a>
+                                        </li>
+                                        <li>
+                                            <a href="../introduction/facility_summary_fc.html">시설개요</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">운영조직</a>
+                                        </li>
+                                        <li>
+                                            <p class="nav_sub_menu_tit">이용안내</p>
+
+                                            <ul class="nav_sub_sub_menu cf">
+                                                <li>
+                                                    <a href="../introduction/operation_guide_fc.html">남양주시육아종합지원센터</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../introduction/operation_guide_fc.html">호평점</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../introduction/operation_guide_fc.html">별내점</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../introduction/operation_guide_fc.html">와부점</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav_menu_tit">교육/행사신청</p>
+                                    
+                                    <ul class="nav_sub_menu cf">
+                                        <li>
+                                            <a href="../application/parent_event_application_fc.html">부모교육/행사</a>
+                                        </li>
+                                        <li>
+                                            <a href="../application/playscheme_application_fc.html">놀이프로그램</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav_menu_tit">놀이지도 프로그램</p>
+                                    
+                                    <ul class="nav_sub_menu cf">
+                                        <li>
+                                            <a href="../consulting/play_instructor_program_fc.html">놀이지도사 프로그램</a>
+                                        </li>
+                                        <li>
+                                            <a href="../consulting/play_docent_program_fc.html">놀이도슨트</a>
+                                        </li>
+                                        <li>
+                                            <a href="../consulting/play_parent_education_list_fc.html">놀이부모교육</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav_menu_tit">육아 지원사업</p>
+                                    
+                                    <ul class="nav_sub_menu cf">
+                                        <li>
+                                            <p class="nav_sub_menu_tit">장난감 도서관</p>
+
+                                            <ul class="nav_sub_sub_menu cf">
+                                                <li>
+                                                    <a href="../support/library_guide_fc.html">장난감 도서관 이용안내</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../support/library_branch_fc.html">장난감 도서관 회원신청</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../support/library_list_fc.html">호평 장난감 도서관</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">비전 장난감 도서관</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">별내 장난감 도서관</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p class="nav_sub_menu_tit">놀이터</p>
+
+                                            <ul class="nav_sub_sub_menu cf">
+                                                <li>
+                                                    <a href="../support/ha_playground_guide_fc.html">호평아이맘놀이터</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../support/kk_playground_guide_fc.html">까꿍 놀이터</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../support/bn_playground_guide_fc.html">별내 Book 놀이터</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../support/wb_playground_guide_fc.html">와부 아이꿈놀이터</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">호평 아이사랑놀이터</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p class="nav_sub_menu_tit">공통부모교육</p>
+
+                                            <ul class="nav_sub_sub_menu cf">
+                                                <li>
+                                                    <a href="../support/public_relations_fc.html">홍보지</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p class="nav_sub_menu_tit">시간제보육실</p>
+
+                                            <ul class="nav_sub_sub_menu cf">
+                                                <li>
+                                                    <a href="../support/childcare_guide_fc.html">이용안내/신청방법</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../support/childcare_gallery_list_fc.html">갤러리</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav_menu_tit">남양주 특성화 사업</p>
+                                    
+                                    <ul class="nav_sub_menu cf">
+                                        <li>
+                                            <a href="../characterization/talmud_academy_list_fc.html">탈무드 아카데미</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav_menu_tit">상담</p>
+                                    
+                                    <ul class="nav_sub_menu cf">
+                                        <li>
+                                            <a href="../advice/advice_guide_fc.html">이용안내/신청방법</a>
+                                        </li>
+                                        <li>
+                                            <a href="../advice/online_list_fc.html">온라인 상담</a>
+                                        </li>
+                                        <li>
+                                            <a href="../advice/play_therapy_fc.html">대면 상담</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav_menu_tit">정보화 사업</p>
+                                    
+                                    <ul class="nav_sub_menu cf">
+                                        <li>
+                                            <a href="../informatization/notice_list_fc.html">공지사항</a>
+                                        </li>
+                                        <li>
+                                            <a href="../informatization/event_list_fc.html">이벤트 게시판</a>
+                                        </li>
+                                        <li>
+                                            <a href="../informatization/map_fc.html">우리동네 탐방지도</a>
+                                        </li>
+                                        <li>
+                                            <a href="../informatization/published_materials_list_fc.html">발간자료</a>
+                                        </li>
+                                        <li>
+                                            <a href="../informatization/photo_gallery_list_fc.html">포토갤러리</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="header_main_menu">
+                            <div class="header_main_menu_item">
+                                <a href="../search_fc.html"><img src="../img/search_icon.png" alt="search_icon"></a>
+                            </div>
+
+                            <div class="header_main_menu_item">
+                                <div class="sitemap_btn cf" onclick="location.href='../sitemap_fc.html';">
+                                    <div class="sitemap_line sitemap_line1"></div>
+                                    <div class="sitemap_line sitemap_line2"></div>
+                                    <div class="sitemap_line sitemap_line3"></div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    
+                    <!-- aside -->
+                    <aside class="aside">
+                        <h1 class="not_view">aside</h1>
+                        
+                        <div class="center_ct cf">
+                            <ul class="nav_menu cf">
+                                <li>
+                                    <ul class="nav_sub_menu cf">
+                                        <li>
+                                            <a href="../introduction/introduction_fc.html">위탁법인 소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="../introduction/greeting_fc.html">인사말</a>
+                                        </li>
+                                        <li>
+                                            <a href="../introduction/vision_fc.html">비전</a>
+                                        </li>
+                                        <li>
+                                            <a href="../introduction/history_fc.html">연혁</a>
+                                        </li>
+                                        <li>
+                                            <a href="../introduction/facility_summary_fc.html">시설개요</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">운영조직</a>
+                                        </li>
+                                        <li>
+                                            <p class="nav_sub_menu_tit">이용안내</p>
+
+                                            <ul class="nav_sub_sub_menu cf">
+                                                <li>
+                                                    <a href="../introduction/operation_guide_fc.html">남양주시육아종합지원센터</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../introduction/operation_guide_fc.html">호평점</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../introduction/operation_guide_fc.html">별내점</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../introduction/operation_guide_fc.html">와부점</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="nav_sub_menu cf">
+                                        <li>
+                                            <a href="../application/parent_event_application_fc.html">부모교육/행사</a>
+                                        </li>
+                                        <li>
+                                            <a href="../application/playscheme_application_fc.html">놀이프로그램</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="nav_sub_menu cf">
+                                        <li>
+                                            <a href="../consulting/play_instructor_program_fc.html">놀이지도사 프로그램</a>
+                                        </li>
+                                        <li>
+                                            <a href="../consulting/play_docent_program_fc.html">놀이도슨트</a>
+                                        </li>
+                                        <li>
+                                            <a href="../consulting/play_parent_education_list_fc.html">놀이부모교육</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="nav_sub_menu cf">
+                                        <li>
+                                            <p class="nav_sub_menu_tit">장난감 도서관</p>
+
+                                            <ul class="nav_sub_sub_menu cf">
+                                                <li>
+                                                    <a href="../support/library_guide_fc.html">장난감 도서관 이용안내</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../support/library_branch_fc.html">장난감 도서관 회원신청</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../support/library_list_fc.html">호평 장난감 도서관</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">비전 장난감 도서관</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">별내 장난감 도서관</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p class="nav_sub_menu_tit">놀이터</p>
+
+                                            <ul class="nav_sub_sub_menu cf">
+                                                <li>
+                                                    <a href="../support/ha_playground_guide_fc.html">호평아이맘놀이터</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../support/kk_playground_guide_fc.html">까꿍 놀이터</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../support/bn_playground_guide_fc.html">별내 Book 놀이터</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../support/wb_playground_guide_fc.html">와부 아이꿈놀이터</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">호평 아이사랑놀이터</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p class="nav_sub_menu_tit">공통부모교육</p>
+
+                                            <ul class="nav_sub_sub_menu cf">
+                                                <li>
+                                                    <a href="../support/public_relations_fc.html">홍보지</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p class="nav_sub_menu_tit">시간제보육실</p>
+
+                                            <ul class="nav_sub_sub_menu cf">
+                                                <li>
+                                                    <a href="../support/childcare_guide_fc.html">이용안내/신청방법</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../support/childcare_gallery_list_fc.html">갤러리</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="nav_sub_menu cf">
+                                        <li>
+                                            <a href="../characterization/talmud_academy_list_fc.html">탈무드 아카데미</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="nav_sub_menu cf">
+                                        <li>
+                                            <a href="../advice/advice_guide_fc.html">이용안내/신청방법</a>
+                                        </li>
+                                        <li>
+                                            <a href="../advice/online_list_fc.html">온라인 상담</a>
+                                        </li>
+                                        <li>
+                                            <a href="../advice/play_therapy_fc.html">대면 상담</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="nav_sub_menu cf">
+                                        <li>
+                                            <a href="../informatization/notice_list_fc.html">공지사항</a>
+                                        </li>
+                                        <li>
+                                            <a href="../informatization/event_list_fc.html">이벤트 게시판</a>
+                                        </li>
+                                        <li>
+                                            <a href="../informatization/map_fc.html">우리동네 탐방지도</a>
+                                        </li>
+                                        <li>
+                                            <a href="../informatization/published_materials_list_fc.html">발간자료</a>
+                                        </li>
+                                        <li>
+                                            <a href="../informatization/photo_gallery_list_fc.html">포토갤러리</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </header>
+			
+			<!-- mobile menu -->
+			<!-- mb_dc : 어린이집 / mb_fc : 가정양육 -->
+			<div class="mb_area mb_fc">
+                <div class="center_ct cf">
+                    <div class="header_main_logo">
+                        <a href="../index_fc.html"><img src="../img/logo_fc.png" alt="logo_fc"></a>
+                    </div>
+
+                    <div class="header_main_menu">
+                        <div class="mb_btn cf">
+                            <div class="line line1"></div>
+                            <div class="line line2"></div>
+                            <div class="line line3"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mb_menu"></div>
+				
+				<div class="mb_box">
+                    <div class="header_main_close">
+                        <div class="mb_close_btn">
+                            <img src="../img/m_close_btn.png" alt="m_close_btn">
+                        </div>
+                    </div>
+                    
+                    <ul class="nav_menu cf">
+                        <li>
+                            <p class="nav_menu_tit">센터 소개</p>
+
+                            <ul class="nav_sub_menu cf">
+                                <li>
+                                    <a href="../introduction/introduction_fc.html">위탁법인 소개</a>
+                                </li>
+                                <li>
+                                    <a href="../introduction/greeting_fc.html">인사말</a>
+                                </li>
+                                <li>
+                                    <a href="../introduction/vision_fc.html">비전</a>
+                                </li>
+                                <li>
+                                    <a href="../introduction/history_fc.html">연혁</a>
+                                </li>
+                                <li>
+                                    <a href="../introduction/facility_summary_fc.html">시설개요</a>
+                                </li>
+                                <li>
+                                    <a href="#">운영조직</a>
+                                </li>
+                                <li>
+                                    <p class="nav_sub_menu_tit">이용안내</p>
+
+                                    <ul class="nav_sub_sub_menu cf">
+                                        <li>
+                                            <a href="../introduction/operation_guide_fc.html">남양주시육아종합지원센터</a>
+                                        </li>
+                                        <li>
+                                            <a href="../introduction/operation_guide_fc.html">호평점</a>
+                                        </li>
+                                        <li>
+                                            <a href="../introduction/operation_guide_fc.html">별내점</a>
+                                        </li>
+                                        <li>
+                                            <a href="../introduction/operation_guide_fc.html">와부점</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="nav_menu_tit">교육/행사신청</p>
+
+                            <ul class="nav_sub_menu cf">
+                                <li>
+                                    <a href="../application/parent_event_application_fc.html">부모교육/행사</a>
+                                </li>
+                                <li>
+                                    <a href="../application/playscheme_application_fc.html">놀이프로그램</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="nav_menu_tit">놀이지도 프로그램</p>
+
+                            <ul class="nav_sub_menu cf">
+                                <li>
+                                    <a href="../consulting/play_instructor_program_fc.html">놀이지도사 프로그램</a>
+                                </li>
+                                <li>
+                                    <a href="../consulting/play_docent_program_fc.html">놀이도슨트</a>
+                                </li>
+                                <li>
+                                    <a href="../consulting/play_parent_education_list_fc.html">놀이부모교육</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="nav_menu_tit">육아 지원사업</p>
+
+                            <ul class="nav_sub_menu cf">
+                                <li>
+                                    <p class="nav_sub_menu_tit">장난감 도서관</p>
+
+                                    <ul class="nav_sub_sub_menu cf">
+                                        <li>
+                                            <a href="../support/library_guide_fc.html">장난감 도서관 이용안내</a>
+                                        </li>
+                                        <li>
+                                            <a href="../support/library_branch_fc.html">장난감 도서관 회원신청</a>
+                                        </li>
+                                        <li>
+                                            <a href="../support/library_list_fc.html">호평 장난감 도서관</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">비전 장난감 도서관</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">별내 장난감 도서관</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav_sub_menu_tit">놀이터</p>
+
+                                    <ul class="nav_sub_sub_menu cf">
+                                        <li>
+                                            <a href="../support/ha_playground_guide_fc.html">호평아이맘놀이터</a>
+                                        </li>
+                                        <li>
+                                            <a href="../support/kk_playground_guide_fc.html">까꿍 놀이터</a>
+                                        </li>
+                                        <li>
+                                            <a href="../support/bn_playground_guide_fc.html">별내 Book 놀이터</a>
+                                        </li>
+                                        <li>
+                                            <a href="../support/wb_playground_guide_fc.html">와부 아이꿈놀이터</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">호평 아이사랑놀이터</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav_sub_menu_tit">공통부모교육</p>
+
+                                    <ul class="nav_sub_sub_menu cf">
+                                        <li>
+                                            <a href="../support/public_relations_fc.html">홍보지</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav_sub_menu_tit">시간제보육실</p>
+
+                                    <ul class="nav_sub_sub_menu cf">
+                                        <li>
+                                            <a href="../support/childcare_guide_fc.html">이용안내/신청방법</a>
+                                        </li>
+                                        <li>
+                                            <a href="../support/childcare_gallery_list_fc.html">갤러리</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="nav_menu_tit">남양주 특성화 사업</p>
+
+                            <ul class="nav_sub_menu cf">
+                                <li>
+                                    <a href="../characterization/talmud_academy_list_fc.html">탈무드 아카데미</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="nav_menu_tit">상담</p>
+
+                            <ul class="nav_sub_menu cf">
+                                <li>
+                                    <a href="../advice/advice_guide_fc.html">이용안내/신청방법</a>
+                                </li>
+                                <li>
+                                    <a href="../advice/online_list_fc.html">온라인 상담</a>
+                                </li>
+                                <li>
+                                    <a href="../advice/play_therapy_fc.html">대면 상담</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="nav_menu_tit">정보화 사업</p>
+
+                            <ul class="nav_sub_menu cf">
+                                <li>
+                                    <a href="../informatization/notice_list_fc.html">공지사항</a>
+                                </li>
+                                <li>
+                                    <a href="../informatization/event_list_fc.html">이벤트 게시판</a>
+                                </li>
+                                <li>
+                                    <a href="../informatization/map_fc.html">우리동네 탐방지도</a>
+                                </li>
+                                <li>
+                                    <a href="../informatization/published_materials_list_fc.html">발간자료</a>
+                                </li>
+                                <li>
+                                    <a href="../informatization/photo_gallery_list_fc.html">포토갤러리</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../search_fc.html">통합검색</a>
+                        </li>
+                        <li>
+                            <a href="../sitemap_fc.html">사이트맵</a>
+                        </li>
+                    </ul>
+				</div>
+			</div>
+			
+			<div class="fk_header"></div>
+			
+			<!-- content -->
+            <!-- content_dc : 어린이집 / content_fc : 가정양육 -->
+            <div class="content_area content_fc">
+                <!-- content_top_introduction, content_top_application, content_top_consulting, content_top_support, content_top_characterization, content_top_advice, content_top_informatization, content_top_etc -->
+                <div class="content_top content_top_support center_ct3">
+                    <div class="center_ct2">
+                        <p class="content_top_tit">육아 지원사업</p>
+                        
+                        <ul class="content_top_menu cf">
+                            <li>
+                                <ul class="content_top_menu_list cf">
+                                    <li>
+                                        <a href="../introduction/introduction_fc.html">센터 소개</a>
+                                    </li>
+                                    <li>
+                                        <a href="../application/parent_event_application_fc.html">교육/행사신청</a>
+                                    </li>
+                                    <li>
+                                        <a href="../consulting/play_instructor_program_fc.html">놀이지도 프로그램</a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="../support/library_guide_fc.html">육아 지원사업</a>
+                                    </li>
+                                    <li>
+                                        <a href="../characterization/talmud_academy_list_fc.html">남양주 특성화 사업</a>
+                                    </li>
+                                    <li>
+                                        <a href="../advice/advice_guide_fc.html">상담</a>
+                                    </li>
+                                    <li>
+                                        <a href="../informatization/notice_list_fc.html">정보화 사업</a>
+                                    </li>
+                                    <li>
+                                        <a href="../member/login_fc.html">회원</a>
+                                    </li>
+                                    <li>
+                                        <a href="../member/modify_personal_fc.html">마이페이지</a>
+                                    </li>
+                                </ul>
+                                <p class="content_top_menu_tit"></p>
+                            </li>
+                            <li>
+                                <ul class="content_top_menu_list cf">
+                                    <li>
+                                        <a href="../support/library_guide_fc.html">장난감 도서관</a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="../support/ha_playground_guide_fc.html">놀이터</a>
+                                    </li>
+                                    <li>
+                                        <a href="../support/public_relations_fc.html">공통부모교육</a>
+                                    </li>
+                                    <li>
+                                        <a href="../support/childcare_guide_fc.html">시간제보육실</a>
+                                    </li>
+                                </ul>
+                                <p class="content_top_menu_tit"></p>
+                            </li>
+                            <li class="content_top_menu_last">
+                                <ul class="content_top_menu_list cf">
+                                    <li class="active">
+                                        <a href="../support/ha_playground_guide_fc.html">호평아이맘놀이터</a>
+                                    </li>
+                                    <li>
+                                        <a href="../support/kk_playground_guide_fc.html">까꿍 놀이터</a>
+                                    </li>
+                                    <li>
+                                        <a href="../support/bn_playground_guide_fc.html">별내 Book 놀이터</a>
+                                    </li>
+                                    <li>
+                                        <a href="../support/wb_playground_guide_fc.html">와부 아이꿈놀이터</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">호평 아이사랑놀이터</a>
+                                    </li>
+                                </ul>
+                                <p class="content_top_menu_tit"></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="content_main ha_playground_organization_area center_ct2">
+                    <section class="ha_playground_organization_section">
+                        <article class="ha_playground_organization_article">
+                            <ul class="content_category content_third_category">
+                                <li><a href="../support/ha_playground_guide_fc.html">이용안내</a></li>
+                                <li class="active"><a href="../support/ha_playground_organization_fc.html">기관신청</a></li>
+                                <li><a href="../support/ha_playground_individual_fc.html">개인신청</a></li>
+                            </ul>
+                        </article>
+                    </section>
+                    
+                    <section class="ha_playground_organization_section2">
+                        <article class="playground_application_article">
+                            <!-- 달력 설정 -->
+                            <div class="content_calendar_area">
+                                <!-- 달력 상단에 년, 월 출력 (movePrevMonth : 이전달, moveNextMonth : 다음달, calendar_top_year : 년, calendar_top_month : 월) -->
+                                <div class="content_calendar_top">
+                                    <a href="javascript:void(0);" id="movePrevMonth">
+                                        <img src="../img/calendar_prev_arrow.png" alt="calendar_prev_arrow">
+                                    </a>
+                                    <div class="calendar_top_txt">
+                                        <span id="calendar_top_year"></span>년
+                                        <span id="calendar_top_month"></span>월
+                                    </div>
+                                    <a href="javascript:void(0);" id="moveNextMonth">
+                                        <img src="../img/calendar_next_arrow.png" alt="calendar_next_arrow">
+                                    </a>
+                                </div>
+                                <!-- 달력 날짜 출력 (calendar_tab : 일) -->
+                                <div id="calendar_tab">
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </div>
+            
+            <!-- footer -->
+            <footer class="footer">
+                <h1 class="not_view">footer</h1>
+                
+                <div class="footer_top">
+                    <div class="center_ct2 cf">
+                        <div class="footer_top_select">
+                            <p class="footer_top_select_tit">남양주 관련기관</p>
+                            
+                            <ul class="footer_top_select_list cf">
+                                <li>
+                                    <a href="#">관련기관1</a>
+                                </li>
+                                <li>
+                                    <a href="#">관련기관2</a>
+                                </li>
+                                <li>
+                                    <a href="#">관련기관3</a>
+                                </li>
+                                <li>
+                                    <a href="#">관련기관4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_top_select">
+                            <p class="footer_top_select_tit">전국육아종합지원센터</p>
+                            
+                            <ul class="footer_top_select_list cf">
+                                <li>
+                                    <a href="#">관련기관1</a>
+                                </li>
+                                <li>
+                                    <a href="#">관련기관2</a>
+                                </li>
+                                <li>
+                                    <a href="#">관련기관3</a>
+                                </li>
+                                <li>
+                                    <a href="#">관련기관4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_top_select">
+                            <p class="footer_top_select_tit">보육관련대학교</p>
+                            
+                            <ul class="footer_top_select_list cf">
+                                <li>
+                                    <a href="#">관련기관1</a>
+                                </li>
+                                <li>
+                                    <a href="#">관련기관2</a>
+                                </li>
+                                <li>
+                                    <a href="#">관련기관3</a>
+                                </li>
+                                <li>
+                                    <a href="#">관련기관4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_top_select">
+                            <p class="footer_top_select_tit">보육관련기관</p>
+                            
+                            <ul class="footer_top_select_list cf">
+                                <li>
+                                    <a href="#">관련기관1</a>
+                                </li>
+                                <li>
+                                    <a href="#">관련기관2</a>
+                                </li>
+                                <li>
+                                    <a href="#">관련기관3</a>
+                                </li>
+                                <li>
+                                    <a href="#">관련기관4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer_main">
+                    <div class="center_ct2 cf">
+                        <div class="footer_main_logo">
+                            <a href="../index_fc.html"><img src="../img/footer_logo.png" alt="footer_logo"></a>
+                        </div>
+                        
+                        <div class="footer_main_txt">
+                            <ul class="footer_main_menu cf">
+                                <li>
+                                    <a href="../introduction/introduction_fc.html">남양주시육아종합지원센터 소개</a>
+                                </li>
+                                <li>
+                                    <a href="../member/agreement_fc.html">이용약관</a>
+                                </li>
+                                <li class="policy_fc">
+                                    <a href="../member/policy_fc.html">개인정보보호정책</a>
+                                </li>
+                                <li>
+                                    <a href="../member/email_fc.html">이메일수집거부</a>
+                                </li>
+                                <li>
+                                    <a href="../sitemap_fc.html">사이트맵</a>
+                                </li>
+                            </ul>
+                            
+                            <div class="footer_main_info">
+                                남양주시육아종합지원센터: 경기도 남양주시 진접읍 해밀예당1로 96&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br class="br_view">
+                                대표번호: 031-528-4463<br>
+                                COPYRIGHT ⓒ 2019 GYEONGGI NAMYANGJU SUPPORT CENTER FOR CHILDCARE. ALL RESERVED.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+		</div>
+	</body>
+</html>
